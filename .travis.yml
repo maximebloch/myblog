@@ -1,7 +1,7 @@
 language: go
 
 go:
-    - "1.7.1"
+    - master
 
 env:
     global:
@@ -16,14 +16,16 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_3170dd934830_key -iv $encrypted_3170dd934830_iv
   -in travis_key.enc -out travis_key -d
 
+install: # install any dependencies required
+
 
 before_script:
     - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
-    - go get -u -v -t github.com/spf13/hugo
+    - go get -v github.com/gohugoio/hugo
 
-script:
-    - git clone https://github.com/laozhu/hugo-nuo ./themes/hugo-nuo
+script: # run the build script
     - hugo
+    - git clone https://github.com/laozhu/hugo-nuo ./themes/hugo-nuo
 
 after_success:
     - echo "173.212.233.55" > ./public/CNAME
