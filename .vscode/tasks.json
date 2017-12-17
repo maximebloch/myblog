@@ -6,7 +6,7 @@
         {
             "label": "watch server",
             "type": "shell",
-            "command": "hugo server --watch --buildDrafts"
+            "command": "hugo server -w --buildDrafts"
         }
     ]
 }
