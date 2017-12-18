@@ -1,4 +1,4 @@
-A Hugo powered blog. https://travis-ci.org/maximebloch/myblog.svg?branch=source
+A Hugo powered blog. [![Build Status](https://travis-ci.org/maximebloch/myblog.svg?branch=source)](https://travis-ci.org/maximebloch/myblog)
 
 Automaticly build and deployed to master and the webserver using travis.
 
