@@ -32,11 +32,11 @@ if [ -n "$TRAVIS_BUILD_ID" ]; then
   echo GIT_EMAIL: $GIT_EMAIL
   if [ "$TRAVIS_BRANCH" != "$DEPLOY_BRANCH" ]; then
     echo "Travis should only deploy from the DEPLOY_BRANCH ($DEPLOY_BRANCH) branch"
-    exit 0
+    exit 1
   else
     if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
       echo "Travis should not deploy from pull requests"
-      exit 0
+      exit 1
     else
       # switch both git and https protocols as we don't know which travis
       # is using today (it changed!)
