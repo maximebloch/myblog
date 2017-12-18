@@ -16,8 +16,8 @@ before_script:
 - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
 - go get -v github.com/gohugoio/hugo
 script:
-- hugo
 - git clone https://github.com/laozhu/hugo-nuo ./themes/hugo-nuo
+- hugo
 after_success:
 - echo "173.212.233.55" > ./public/CNAME
 - "./scripts/deploy.sh"

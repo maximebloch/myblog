@@ -1,7 +1,6 @@
 ---
 title: "My bike revisement"
 date: 2017-12-17T00:54:35+01:00
-draft: true
 ---
 
 # The start
