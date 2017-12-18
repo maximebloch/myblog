@@ -1,4 +1,4 @@
-baseURL = "."
+baseURL = "http://localhost:1313" # change this to the absolute root dir if the project
 languageCode = "en"
 title = "My Blog"
 theme = "hugo-nuo"
