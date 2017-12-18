@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My Blog</title>
-    <link>/post/</link>
+    <link>./post/</link>
     <description>Recent content in Posts on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Sun, 17 Dec 2017 00:54:35 +0100</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="./post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My bike revisement</title>
-      <link>/post/my-new-post/</link>
+      <link>./post/my-new-post/</link>
       <pubDate>Sun, 17 Dec 2017 00:54:35 +0100</pubDate>
       
-      <guid>/post/my-new-post/</guid>
+      <guid>./post/my-new-post/</guid>
       <description>The start The plan Execution 17&amp;frasl;12 After lunch i tried to get the crack arm of with new gathered energy. I quickly noticed that poping it off using a hammer and long piece of steel was not going to work. It wasn&amp;rsquo;t moving at all and because off the lack of a bike stand or other tools to keep the frame fixed I couldn&amp;rsquo;t get the proper force onto the cranckarm needed to push it off.</description>
     </item>
     
