@@ -1,32 +1,23 @@
 language: go
-
 go:
-    - master
-
+- master
 env:
-    global:
-        - SSH_KEY="travis_key"
-        - GIT_NAME="maximebloch"
-        - GIT_EMAIL="alazeo@live.be"
-        - SOURCE_DIR="public"
-        - DEPLOY_BRANCH="source"
-
-
+  global:
+  - SSH_KEY="id_rsa"
+  - GIT_NAME="maximebloch"
+  - GIT_EMAIL="alazeo@live.be"
+  - SOURCE_DIR="public"
+  - DEPLOY_BRANCH="source"
 before_install:
 - openssl aes-256-cbc -K $encrypted_3170dd934830_key -iv $encrypted_3170dd934830_iv
   -in travis_key.enc -out travis_key -d
-
-install: # install any dependencies required
-
-
+install: 
 before_script:
-    - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
-    - go get -v github.com/gohugoio/hugo
-
-script: # run the build script
-    - hugo
-    - git clone https://github.com/laozhu/hugo-nuo ./themes/hugo-nuo
-
+- git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
+- go get -v github.com/gohugoio/hugo
+script:
+- hugo
+- git clone https://github.com/laozhu/hugo-nuo ./themes/hugo-nuo
 after_success:
-    - echo "173.212.233.55" > ./public/CNAME
-    - ./scripts/deploy.sh
+- echo "173.212.233.55" > ./public/CNAME
+- "./scripts/deploy.sh"
