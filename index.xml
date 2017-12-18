@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 17 Dec 2017 18:58:49 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 17 Dec 2017 18:58:49 +0100</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>This is me, i&amp;rsquo;m an informatics student at the Univesity of Ghent.
+I have a certain need to structure what I do and I can&amp;rsquo;t find the thing that works for me. This is an attempt to try to write some stuff I do down in a blog. It doens&amp;rsquo;t have a goal of entertaining, it is mostly for myself but everyone else who can get anything usefull out of it, good luck!</description>
+    </item>
+    
+  </channel>
+</rss>
