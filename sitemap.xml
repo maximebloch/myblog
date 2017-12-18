@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/my-new-post/</loc>
+    <lastmod>2017-12-17T00:54:35+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/categories/</loc>
     <priority>0</priority>
   </url>
@@ -15,6 +20,12 @@
   <url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2017-12-17T18:58:49+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2017-12-17T00:54:35+01:00</lastmod>
     <priority>0</priority>
   </url>
   
